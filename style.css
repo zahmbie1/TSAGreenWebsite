@@ -10,4 +10,34 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
+  color: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  border: #000000;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background-color: Black;
+}
+
+.active{
+  background-color: aquamarine;
 }
