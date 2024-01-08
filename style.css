@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f8f8;
+  background-color: #575757;
 }
 
 h1 {
@@ -10,11 +10,11 @@ h1 {
 p {
   font-family: timesnewroman;
   font-size: 18px;
-  color: #000000;
+  color: #48cc81;
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #363636;
   position: fixed;
   width: 200%;
   top: 0;
@@ -33,6 +33,16 @@ p {
   border: #000000;
   padding: 14px 16px;
 }
+
+.navbar li a:hover:not(.active) {
+  background-color: #3e3e3e;
+}
+
 .active{
-  background-color: aquamarine;
+  background-color: #48cc81;
+}
+
+.noUnderline {
+  text-decoration: none;
+  color: aliceblue
 }
